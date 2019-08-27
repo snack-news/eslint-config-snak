@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-snak",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "snak 프로젝트 eslint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
