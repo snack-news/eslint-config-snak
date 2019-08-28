@@ -62,6 +62,8 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
 
     'no-use-before-define': 'off',
+
+    'import/prefer-default-export': 'off',
   },
 
   overrides: [
