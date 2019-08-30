@@ -39,6 +39,8 @@ module.exports = {
     complexity: ['warn', { max: 10 }],
     // 80자 제한 이유: https://www.codereadability.com/maximum-line-length/
     'max-lines': ['warn', { max: 80, skipBlankLines: true, skipComments: true }],
+
+    'max-lines-per-function': ['error', { max: 20, skipBlankLines: true, skipComments: true, IIFEs: true }],
     'max-depth': ['warn', 2],
     'import/no-extraneous-dependencies': [
       'error',
