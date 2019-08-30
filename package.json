@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-snak",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "snak 프로젝트 eslint config",
   "main": "index.js",
   "scripts": {
