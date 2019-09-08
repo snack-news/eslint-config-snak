@@ -108,6 +108,8 @@ module.exports = {
         '@typescript-eslint/prefer-interface': 'off',
         '@typescript-eslint/prefer-namespace-keyword': 'off',
         '@typescript-eslint/type-annotation-spacing': 'off',
+        'no-useless-constructor': 'off',
+        '@typescript-eslint/no-useless-constructor': 'error',
 
         // React Typescript 의 경우 prop-types는 설정하지 않아도 됨.
         'react/prop-types': 'off',
