@@ -66,6 +66,10 @@ module.exports = {
     'no-use-before-define': 'off',
 
     'import/prefer-default-export': 'off',
+
+    // https://github.com/typescript-eslint/typescript-eslint/issues/291
+    'no-dupe-class-members': 'off',
+    'lines-between-class-members': 'off',
   },
 
   overrides: [
