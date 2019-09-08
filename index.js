@@ -110,6 +110,8 @@ module.exports = {
         '@typescript-eslint/type-annotation-spacing': 'off',
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'error',
+        'no-empty-function': 'off',
+        '@typescript-eslint/no-empty-function': 'error',
 
         // React Typescript 의 경우 prop-types는 설정하지 않아도 됨.
         'react/prop-types': 'off',
