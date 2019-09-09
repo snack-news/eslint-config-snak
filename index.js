@@ -73,7 +73,7 @@ module.exports = {
 
     'no-useless-constructor': 'error',
     'no-empty-function': 'error',
-    'no-magic-numbers': ['error', { ignoreNumericLiteralTypes: true }],
+    'no-magic-numbers': 'error',
   },
 
   overrides: [
@@ -112,7 +112,7 @@ module.exports = {
         '@typescript-eslint/prefer-interface': 'off',
         '@typescript-eslint/prefer-namespace-keyword': 'off',
         '@typescript-eslint/type-annotation-spacing': 'off',
-        
+
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'error',
         'no-empty-function': 'off',
