@@ -70,6 +70,10 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/issues/291
     'no-dupe-class-members': 'off',
     'lines-between-class-members': 'off',
+
+    'no-useless-constructor': 'error',
+    'no-empty-function': 'error',
+    'no-magic-numbers': ['error', { ignoreNumericLiteralTypes: true }],
   },
 
   overrides: [
@@ -108,10 +112,13 @@ module.exports = {
         '@typescript-eslint/prefer-interface': 'off',
         '@typescript-eslint/prefer-namespace-keyword': 'off',
         '@typescript-eslint/type-annotation-spacing': 'off',
+        
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'error',
         'no-empty-function': 'off',
         '@typescript-eslint/no-empty-function': 'error',
+        'no-magic-numbers': 'off',
+        '@typescript-eslint/no-magic-numbers': ['error', { ignoreNumericLiteralTypes: true }],
 
         // React Typescript 의 경우 prop-types는 설정하지 않아도 됨.
         'react/prop-types': 'off',
