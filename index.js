@@ -54,8 +54,8 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: [['builtin', 'external', 'internal'], ['parent', 'sibling', 'index']],
-        'newlines-between': 'always-and-inside-groups',
+        groups: [['external'], ['builtin'], ['internal'], ['parent', 'sibling', 'index']],
+        'newlines-between': 'always',
       },
     ],
 
